@@ -1,0 +1,10 @@
+# Hugo build output
+public/
+resources/
+_vendor/
+
+# OS
+.DS_Store
+
+# Hugo module cache
+_mod/

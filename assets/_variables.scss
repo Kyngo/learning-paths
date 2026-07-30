@@ -1,0 +1,35 @@
+// Override Book theme dark mode with a much darker palette
+@mixin theme-dark {
+  --body-background: #0d1117;       // Near-black (GitHub dark style)
+  --body-background-tint: none;
+  --body-font-color: #c9d1d9;       // Soft light gray for readability
+
+  --color-link: #58a6ff;
+  --color-visited-link: #bc8cff;
+
+  --icon-filter: brightness(0) invert(1);
+
+  --gray-100: #161b22;              // Slightly lighter than background (cards, sidebar)
+  --gray-200: #21262d;              // Borders, separators
+  --gray-500: #8b949e;              // Muted text
+
+  @include accent("default", #58a6ff);
+  @include accent("note", #58a6ff);
+  @include accent("tip", #3fb950);
+  @include accent("important", #bc8cff);
+  @include accent("warning", #d29922);
+  @include accent("caution", #f85149);
+
+  // Fallback for {{< hint >}} shortcodes
+  @include accent("info", #58a6ff);
+  @include accent("success", #3fb950);
+  @include accent("danger", #f85149);
+}
+
+@mixin theme-light {
+  @include theme-dark; // Force dark everywhere
+}
+
+@mixin theme-auto {
+  @include theme-dark; // Force dark regardless of system preference
+}
