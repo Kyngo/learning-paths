@@ -1,6 +1,8 @@
 # Software Engineering Learning Paths
 
-A structured collection of learning paths covering fundamental and advanced software engineering topics. Each path is self-contained, progresses from basics to advanced concepts, and includes diagrams where they aid understanding.
+A structured collection of learning paths covering fundamental and advanced software engineering topics. Built as a [Hugo](https://gohugo.io/) static site with the [Book](https://themes.gohugo.io/themes/hugo-book/) theme.
+
+**Live site:** https://arnaumartin.github.io/learning-paths/
 
 ## Purpose
 
@@ -12,37 +14,66 @@ This repository provides in-depth, technically rigorous learning material for so
 
 ## Learning Paths
 
-| Path | Folder | Description |
-|------|--------|-------------|
-| Programming Logic | `paths/programming-logic/` | Algorithms, data structures, control flow, computational thinking |
-| Python | `paths/python/` | Python language from basics to advanced patterns |
-| Java | `paths/java/` | Java ecosystem, OOP, concurrency, enterprise patterns |
-| JavaScript / TypeScript / Node.js | `paths/javascript-typescript-nodejs/` | Full JS ecosystem including types and server-side |
-| Frontend Development | `paths/frontend-development/` | CSS, browser APIs, responsive design, accessibility |
-| Terraform | `paths/terraform/` | Infrastructure as Code with Terraform |
-| Amazon Web Services | `paths/amazon-web-services/` | AWS cloud services and architecture |
-| Scripting | `paths/scripting/` | Shell scripting, automation, text processing |
-| Networking | `paths/networking/` | TCP/IP, DNS, HTTP, network architecture |
-| IT Fundamentals | `paths/it-fundamentals/` | Operating systems, hardware, security basics |
-| Cybersecurity | `paths/cybersecurity/` | Threat landscape, cryptography, offensive/defensive security |
-| AI and Large Language Models | `paths/ai-llms/` | Neural networks, transformers, LLMs, RAG, agents, prompt engineering |
+| Path | Description |
+|------|-------------|
+| Programming Logic | Algorithms, data structures, control flow, computational thinking |
+| DSA Interview Prep | Sliding window, two pointers, trees, heaps, backtracking, binary search |
+| Databases & SQL | Relational design, SQL mastery, indexing, transactions, NoSQL |
+| System Design | Scalability, load balancing, caching, distributed systems |
+| Software Architecture | Design patterns, clean architecture, DDD, event-driven systems |
+| APIs & Web Services | REST, authentication, GraphQL, webhooks, rate limiting |
+| Testing & Quality | Unit/integration/e2e testing, TDD, property testing, performance |
+| Operating Systems | Processes, memory, file systems, I/O, concurrency, containers |
+| Python | Python language from basics to advanced patterns |
+| Java | Java ecosystem, OOP, concurrency, enterprise patterns |
+| PHP | PHP from basics to modern frameworks (Laravel, Symfony) |
+| JavaScript / TypeScript / Node.js | Full JS ecosystem including types and server-side |
+| Swift and SwiftUI | Apple development — Swift language and SwiftUI framework |
+| Frontend Development | CSS, browser APIs, responsive design, accessibility |
+| Terraform | Infrastructure as Code with Terraform |
+| Amazon Web Services | AWS cloud services and architecture |
+| DevOps & CI/CD | Pipelines, GitLab CI, GitHub Actions, GitOps, DORA metrics |
+| Kubernetes | Pods, deployments, networking, Helm, security, operations |
+| Scripting | Shell scripting, automation, text processing |
+| Tools | Git, Docker, SSH, Apache, Nginx, package management |
+| Git Advanced | Internals, rebase, reflog, hooks, workflows at scale |
+| Networking | TCP/IP, DNS, HTTP, subnetting, network architecture |
+| IT Fundamentals | Operating systems, hardware, computer assembly, security basics |
+| Cybersecurity | Threat landscape, cryptography, OSINT, offensive/defensive security |
+| AI and Large Language Models | Neural networks, transformers, LLMs, RAG, agents, MCP, prompt engineering |
+| Soft Skills | Communication, leadership, collaboration, career growth |
 
 ## Structure
 
-Each learning path lives in its own folder under `paths/` and contains a single comprehensive `README.md` with:
+Content lives under `content/paths/`. Each learning path has its own folder with an `_index.md` and numbered section files:
 
-1. Overview and prerequisites
-2. Progressive sections from beginner to advanced
-3. Mermaid diagrams for visual concepts
-4. Code examples where applicable
-5. Key takeaways per section
+```
+content/paths/
+├── python/
+│   ├── _index.md
+│   ├── 01-basics.md
+│   ├── 02-data-structures.md
+│   └── ...
+├── tools/
+│   ├── _index.md
+│   ├── 01-git.md
+│   ├── 02-docker.md
+│   └── ...
+└── ...
+```
 
-## How to Use
+## Local Development
 
-1. Pick a path based on your current goals
-2. Read the prerequisites — some paths build on others
-3. Work through sections in order
-4. Practice with the examples before moving to the next section
+```bash
+# Prerequisites: Hugo extended (v0.164.0+)
+brew install hugo
+
+# Run dev server
+hugo server
+
+# Build
+hugo --gc --minify
+```
 
 ## Recommended Order for Beginners
 
@@ -55,3 +86,7 @@ Or for web development:
 ```text
 Programming Logic → JavaScript/TypeScript/Node.js → Frontend Development → Terraform → AWS
 ```
+
+## Deployment
+
+Deployed automatically to GitHub Pages via GitHub Actions on push to `master`.
