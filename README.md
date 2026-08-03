@@ -2,7 +2,7 @@
 
 A structured collection of learning paths covering fundamental and advanced software engineering topics. Built as a [Hugo](https://gohugo.io/) static site with the [Book](https://themes.gohugo.io/themes/hugo-book/) theme.
 
-**Live site:** https://arnaumartin.github.io/learning-paths/
+**Live site:** https://kyngo.github.io/learning-paths/
 
 ## Purpose
 
