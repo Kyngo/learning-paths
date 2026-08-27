@@ -17,3 +17,4 @@ Essential tools every developer and systems administrator needs to master. From 
 4. [Apache]({{< relref "/paths/tools/04-apache" >}})
 5. [Nginx]({{< relref "/paths/tools/05-nginx" >}})
 6. [Package Management]({{< relref "/paths/tools/06-package-management" >}})
+7. [Containers in Production]({{< relref "/paths/tools/07-containers-production" >}})
