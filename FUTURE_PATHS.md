@@ -27,7 +27,7 @@ These have been implemented as full learning paths:
 
 - ~~**Go**~~ — `content/paths/go/`
 - ~~**Rust**~~ — `content/paths/rust/`
-- **C / C++** — memory management, pointers, compilation, STL, embedded systems
+- ~~**C / C++**~~ — `content/paths/c-cpp/`
 
 ### Data
 

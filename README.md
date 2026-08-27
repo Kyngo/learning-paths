@@ -29,6 +29,7 @@ This repository provides in-depth, technically rigorous learning material for so
 | PHP | PHP from basics to modern frameworks (Laravel, Symfony) |
 | Go | Goroutines, channels, interfaces, standard library, modules, patterns |
 | Rust | Ownership, borrowing, lifetimes, traits, async, systems programming |
+| C / C++ | Memory management, pointers, compilation, STL, modern C++, systems programming |
 | JavaScript / TypeScript / Node.js | Full JS ecosystem including types and server-side |
 | Swift and SwiftUI | Apple development — Swift language and SwiftUI framework |
 | Frontend Development | CSS, browser APIs, responsive design, accessibility |
