@@ -31,19 +31,23 @@ These have been implemented as full learning paths:
 
 ### Data
 
-- **Data Engineering** — ETL/ELT, data lakes, warehouses, Spark, Airflow, streaming (Kafka)
-- **Machine Learning (Classical)** — regression, classification, clustering, feature engineering, scikit-learn
+- ~~**Data Engineering**~~ — `content/paths/data-engineering/`
+- ~~**Machine Learning (Classical)**~~ — `content/paths/machine-learning/`
 
 ### DevOps & Quality
 
-- **Observability** — metrics, logs, traces, Datadog/Prometheus/Grafana, SLOs/SLIs/SLAs, alerting
+- ~~**Observability**~~ — `content/paths/observability/`
 
 ### Web & Mobile
 
-- **Web Security** — OWASP Top 10, XSS, CSRF, CSP, authentication patterns (OAuth 2.0, OIDC, JWT)
-- **Progressive Web Apps** — service workers, offline-first, push notifications, Web APIs
-- **Android (Kotlin + Jetpack Compose)** — mirrors the Swift/SwiftUI path for Android development
+- ~~**Web Security**~~ — `content/paths/web-security/`
+- ~~**Progressive Web Apps**~~ — `content/paths/progressive-web-apps/`
+- ~~**Android (Kotlin + Jetpack Compose)**~~ — `content/paths/android-kotlin/`
 
 ### Other
 
 - ~~**Regular Expressions**~~ — covered in Scripting section 08 (expanded with lookarounds, ReDoS, and language APIs)
+
+---
+
+🎉 **All planned paths have been implemented!**

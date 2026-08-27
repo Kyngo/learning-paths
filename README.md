@@ -19,6 +19,7 @@ This repository provides in-depth, technically rigorous learning material for so
 | Programming Logic | Algorithms, data structures, control flow, computational thinking |
 | DSA Interview Prep | Sliding window, two pointers, trees, heaps, backtracking, binary search |
 | Databases & SQL | Relational design, SQL mastery, indexing, transactions, NoSQL |
+| Data Engineering | ETL/ELT, data lakes, warehouses, Spark, Airflow, Kafka, dbt |
 | System Design | Scalability, load balancing, caching, distributed systems |
 | Software Architecture | Design patterns, clean architecture, DDD, event-driven systems |
 | APIs & Web Services | REST, authentication, GraphQL, webhooks, rate limiting |
@@ -31,19 +32,24 @@ This repository provides in-depth, technically rigorous learning material for so
 | Rust | Ownership, borrowing, lifetimes, traits, async, systems programming |
 | C / C++ | Memory management, pointers, compilation, STL, modern C++, systems programming |
 | JavaScript / TypeScript / Node.js | Full JS ecosystem including types and server-side |
+| Android (Kotlin + Jetpack Compose) | Kotlin language, coroutines, Jetpack Compose UI, navigation, architecture |
 | Swift and SwiftUI | Apple development — Swift language and SwiftUI framework |
 | Frontend Development | CSS, browser APIs, responsive design, accessibility |
+| Progressive Web Apps | Service workers, offline-first, push notifications, Web APIs |
 | Terraform | Infrastructure as Code with Terraform |
 | Amazon Web Services | AWS cloud services and architecture |
 | DevOps & CI/CD | Pipelines, GitLab CI, GitHub Actions, GitOps, DORA metrics |
+| Observability | Metrics, logs, traces, Prometheus, Grafana, Datadog, SLOs, alerting |
 | Kubernetes | Pods, deployments, networking, Helm, security, operations |
 | Scripting | Shell scripting, automation, text processing |
 | Tools | Git, Docker, SSH, Apache, Nginx, package management |
 | Git Advanced | Internals, rebase, reflog, hooks, workflows at scale |
 | Networking | TCP/IP, DNS, HTTP, subnetting, network architecture |
 | Mathematics for Engineers | Number systems, algebra, discrete math, linear algebra, probability, statistics, calculus, information theory |
+| Machine Learning | Regression, classification, clustering, feature engineering, scikit-learn, MLOps |
 | IT Fundamentals | Operating systems, hardware, computer assembly, security basics |
 | Cybersecurity | Threat landscape, cryptography, OSINT, offensive/defensive security |
+| Web Security | OWASP Top 10, XSS, CSRF, OAuth 2.0, OIDC, transport security, API security |
 | AI and Large Language Models | Neural networks, transformers, LLMs, RAG, agents, MCP, prompt engineering |
 | Soft Skills | Communication, leadership, collaboration, career growth |
 
