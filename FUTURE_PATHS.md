@@ -51,3 +51,13 @@ These have been implemented as full learning paths:
 ---
 
 🎉 **All planned paths have been implemented!**
+
+---
+
+## Added Beyond Original Plan
+
+These paths were identified through coverage gap analysis and added:
+
+- ~~**Distributed Systems**~~ — `content/paths/distributed-systems/`
+- ~~**Database Internals**~~ — `content/paths/database-internals/`
+- ~~**Cloud Architecture Patterns**~~ — `content/paths/cloud-architecture/`

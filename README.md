@@ -20,7 +20,9 @@ This repository provides in-depth, technically rigorous learning material for so
 | DSA Interview Prep | Sliding window, two pointers, trees, heaps, backtracking, binary search |
 | Databases & SQL | Relational design, SQL mastery, indexing, transactions, NoSQL |
 | Data Engineering | ETL/ELT, data lakes, warehouses, Spark, Airflow, Kafka, dbt |
+| Database Internals | B-trees, LSM trees, WAL, MVCC, query planning, buffer pools, storage engines |
 | System Design | Scalability, load balancing, caching, distributed systems |
+| Distributed Systems | Consensus, replication, CRDTs, vector clocks, partitioning, distributed transactions |
 | Software Architecture | Design patterns, clean architecture, DDD, event-driven systems |
 | APIs & Web Services | REST, authentication, GraphQL, webhooks, rate limiting |
 | Testing & Quality | Unit/integration/e2e testing, TDD, property testing, performance |
@@ -38,6 +40,7 @@ This repository provides in-depth, technically rigorous learning material for so
 | Progressive Web Apps | Service workers, offline-first, push notifications, Web APIs |
 | Terraform | Infrastructure as Code with Terraform |
 | Amazon Web Services | AWS cloud services and architecture |
+| Cloud Architecture Patterns | 12-factor, multi-account, migration strategies, serverless, multi-cloud, cost architecture |
 | DevOps & CI/CD | Pipelines, GitLab CI, GitHub Actions, GitOps, DORA metrics |
 | Observability | Metrics, logs, traces, Prometheus, Grafana, Datadog, SLOs, alerting |
 | Kubernetes | Pods, deployments, networking, Helm, security, operations |
