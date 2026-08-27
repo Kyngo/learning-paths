@@ -38,6 +38,7 @@ This repository provides in-depth, technically rigorous learning material for so
 | Tools | Git, Docker, SSH, Apache, Nginx, package management |
 | Git Advanced | Internals, rebase, reflog, hooks, workflows at scale |
 | Networking | TCP/IP, DNS, HTTP, subnetting, network architecture |
+| Mathematics for Engineers | Number systems, algebra, discrete math, linear algebra, probability, statistics, calculus, information theory |
 | IT Fundamentals | Operating systems, hardware, computer assembly, security basics |
 | Cybersecurity | Threat landscape, cryptography, OSINT, offensive/defensive security |
 | AI and Large Language Models | Neural networks, transformers, LLMs, RAG, agents, MCP, prompt engineering |
