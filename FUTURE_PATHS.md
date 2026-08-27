@@ -25,7 +25,7 @@ These have been implemented as full learning paths:
 
 ### Programming Languages
 
-- **Go** — goroutines, channels, interfaces, standard library, CLIs, microservices
+- ~~**Go**~~ — `content/paths/go/`
 - **Rust** — ownership, borrowing, lifetimes, traits, async, systems programming
 - **C / C++** — memory management, pointers, compilation, STL, embedded systems
 
